@@ -1,0 +1,76 @@
+/* Resetear estilos del navegador */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+/* Declaración de variables para reutilizar colores y estilos */
+:root {
+    --color_fondo: #ffffff;
+    --color_texto_menú: #405084;
+    --color_botones: #d679af;
+    --color_acento: #405084;
+    --fuente-principal: "Poppins", sans-serif;
+    --padding_tarjetas: 5px;
+    --color_texto: #000;
+}
+
+/* Estilos generales del body */
+body {
+    background-color: var(--color_fondo);
+    color: var(--color_texto);
+    font-family: var(--fuente-principal);
+    margin-top: 100px; /* espacio para el header fijo */
+}
+/* SECCIONES EN ZIGZAG */
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 100px 20px 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.section:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.section img {
+    width: 45%;
+    border-radius: 20px; /* Bordes ovalados */
+    object-fit: cover;
+}
+
+.text {
+    width: 50%;
+    font-family: var(--fuente-principal);
+    color: var(--color_texto);
+}
+
+/* TIPOGRAFÍAS */
+h1 {
+    font-family: var(--fuente-principal);
+    font-size: 54px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--color_texto_menú);
+}
+
+h2 {
+    font-family: var(--fuente-principal);
+    font-size: 44px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: var(--fuente-principal);
+    font-size: 26px;
+    line-height: 1.4;
+}
