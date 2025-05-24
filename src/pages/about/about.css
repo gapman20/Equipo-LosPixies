@@ -1,0 +1,119 @@
+:root {
+    --color-morado-principal: #425184;
+    --color-rosa-principal: #D579AF;
+    --color-blanco: #ffff;
+    --color-negro: #0000;
+    --fuente-princpal: "Poppins", sans-serif;
+}
+
+
+h1 h2 h3 h4 h5 h6 p {
+    font-family: var(--fuente-princpal);
+}
+
+.subtitulos_para_seccion {
+    font-size: 140%;
+    font-weight: bold;
+}
+
+#sobreDevelopers {
+    padding: 5% 0;
+    background-color: var(--color-morado-principal);
+}
+
+.developerCards {
+    display: flex;
+    margin-top: 2rem;
+    height: 350px;
+}
+
+
+.imagen_circular {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-blanco);
+    height: 100%;
+
+}
+
+.derecha {
+    margin-right: 30%;
+    .imagen_circular {
+        border-radius: 0px 1000px 1000px 0px;
+    }
+    .imagen_circular img {
+        padding-right: 5%;
+    }
+}
+
+.izquierda {
+    margin-left: 30%;
+    border-radius: 1000px 0px 0px 1000px;
+    .imagen_circular {
+        border-radius: 1000px 0px 0px 1000px;
+    }
+    .imagen_circular img {
+        padding-left: 5%;
+    }
+}
+
+.nombre_developers {
+    color: var(--color-rosa-principal);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grafico-estrella-developers {
+    width: 4%;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#info_developers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5% 5%;
+    background-color: var(--color-blanco);
+}
+
+.contactame-developer h3 {
+    font-size: 120%;
+}
+
+.contactame-developer h4 {
+    font-size: 100%;
+}
+
+#contactoTelyEmail {
+    display: flex;
+    justify-content: center;
+}
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.icon-contactame {
+    width: 20px;
+    margin: 2%;
+}
+
+
+
+.imagen_circular img {
+    height: 90%;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.parrafos {
+    font-size: 100%;
+    text-align: justify;
+}
