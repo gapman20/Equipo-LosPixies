@@ -5,7 +5,8 @@
     text-align: center;
     display: flex;
     width: 100%;
-    position: relative; /* Ya no está fijo */
+    position: fixed; /* Ya no está fijo */
+    bottom: 0; /* Se quedo fijo  */
     font-family: 'Poppins', sans-serif;
 }
 
