@@ -1,0 +1,54 @@
+/* Declaración de variables para reutilizar colores y estilos */
+:root {
+    --color_fondo: #ffffff;
+    --color_texto_menú: #405084;
+    --color_botones: #d679af;
+    --color_acento: #405084;
+    --fuente-principal: "Poppins", sans-serif;
+    --padding_tarjetas: 5px;
+    --color_texto: #000;
+}
+
+/* HEADER ESTÁTICO Y PEQUEÑO */
+.patita-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--color_fondo);
+    z-index: 1000;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Logo */
+.logo img {
+    height: 40px;
+}
+
+/* Navegación */
+.navegacion {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navegacion a {
+    text-decoration: none;
+    color: var(--color_texto_menú);
+    font-family: var(--fuente-principal);
+    font-weight: 500;
+}
+
+/* Iconos */
+.iconos a img {
+    height: 30px;
+    margin-left: 10px;
+}
