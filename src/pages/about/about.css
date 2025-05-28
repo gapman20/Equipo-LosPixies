@@ -166,7 +166,7 @@ body {
 }
 
 .section img {
-    width: 45%;
+    width: 25%;
     border-radius: 20px; /* Bordes ovalados */
     object-fit: cover;
 }
@@ -216,5 +216,47 @@ p {
   z-index: 0;
 }
 
+/* Estilos del footer */
+.patita-footer {
+    background-color: #D9D9D9;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    position: relative; /* Ya no está fijo */
+    font-family: 'Poppins', sans-serif;
+}
 
+.footer-content {
+    width: 100%;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
+#logo-footer {
+    width: 100px;
+    height: auto;
+}
+
+.footer-brand {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer-legal {
+    text-align: center;
+}
+
+.footer-legal p {
+    color: #666;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.copyright {
+    font-size: 12px;
+}
