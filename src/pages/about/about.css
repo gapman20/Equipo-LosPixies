@@ -150,6 +150,51 @@ body {
     margin-top: 100px; /* espacio para el header fijo */
 }
 
+/* HEADER ESTÁTICO Y PEQUEÑO */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--color_fondo);
+    z-index: 1000;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Logo */
+.logo img {
+    height: 40px;
+}
+
+/* Navegación */
+.navegacion {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navegacion a {
+    text-decoration: none;
+    color: var(--color_texto_menú);
+    font-family: var(--fuente-principal);
+    font-weight: 500;
+}
+
+/* Iconos */
+.iconos a img {
+    height: 30px;
+    margin-left: 10px;
+}
+
+
 /* SECCIONES EN ZIGZAG */
 .section {
     display: flex;
@@ -216,47 +261,3 @@ p {
   z-index: 0;
 }
 
-/* Estilos del footer */
-.patita-footer {
-    background-color: #D9D9D9;
-    padding: 10px 0;
-    text-align: center;
-    display: flex;
-    width: 100%;
-    position: relative; /* Ya no está fijo */
-    font-family: 'Poppins', sans-serif;
-}
-
-.footer-content {
-    width: 100%;
-    padding: 0 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-#logo-footer {
-    width: 100px;
-    height: auto;
-}
-
-.footer-brand {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.footer-legal {
-    text-align: center;
-}
-
-.footer-legal p {
-    color: #666;
-    font-size: 14px;
-    margin: 5px 0;
-}
-
-.copyright {
-    font-size: 12px;
-}
