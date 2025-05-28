@@ -11,13 +11,13 @@ const insertFooter = (footer) =>{
           <p class="copyright">© Patita Oriental. Todos los derechos reservados.</p>
         </div>
         <div class="logo-content">
-            <a href=""><img className="logo-social-media" src="../../../public/images/icons8-whatsapp-50.png" alt="" srcset="" /></a>
-            <a href="https://www.instagram.com/patitaoriental/"><img className="logo-social-media" src="../../../public/images/icons8-instagram-50.png" alt="" srcset="" /></a>
-            <a href="https://www.facebook.com/PatitaOriental?locale=es_LA"><img className="logo-social-media" src="../../../public/images/icons8-facebook-nuevo-50.png" alt="" srcset="" /></a>
+            <a href=""><img class="logo-social-media" src="../../../public/images/icons8-whatsapp-50.png" alt="" srcset="" /></a>
+            <a href="https://www.instagram.com/patitaoriental/"><img class="logo-social-media" src="../../../public/images/icons8-instagram-50.png" alt="" srcset="" /></a>
+            <a href="https://www.facebook.com/PatitaOriental?locale=es_LA"><img class="logo-social-media" src="../../../public/images/icons8-facebook-nuevo-50.png" alt="" srcset="" /></a>
         </div>
       </div>
     
     `;
-}
+};
 
 export default insertFooter;
